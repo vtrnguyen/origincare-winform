@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5669E4D0-ED0C-4576-BBAD-14B7CBAD27AC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Bookingcare_Winform</RootNamespace>
+    <AssemblyName>Bookingcare Winform</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo-origincare-desktop.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminContainer\ManageBooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminContainer\ManageBooking.Designer.cs">
+      <DependentUpon>ManageBooking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminContainer\ManageClinic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminContainer\ManageClinic.Designer.cs">
+      <DependentUpon>ManageClinic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminContainer\ManageDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminContainer\ManageDoctor.Designer.cs">
+      <DependentUpon>ManageDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminContainer\ManageSpecialty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminContainer\ManageSpecialty.Designer.cs">
+      <DependentUpon>ManageSpecialty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminContainer\ManageUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminContainer\ManageUser.Designer.cs">
+      <DependentUpon>ManageUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonStatus.cs" />
+    <Compile Include="Database.cs" />
+    <Compile Include="Doctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doctor.Designer.cs">
+      <DependentUpon>Doctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorContainer\ManageSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoctorContainer\ManageSchedule.Designer.cs">
+      <DependentUpon>ManageSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmailSender.cs" />
+    <Compile Include="ImageConverter.cs" />
+    <Compile Include="UserContainer\BookingSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserContainer\BookingSchedule.Designer.cs">
+      <DependentUpon>BookingSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserContainer\DetailClinic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserContainer\DetailClinic.Designer.cs">
+      <DependentUpon>DetailClinic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserContainer\DetailDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserContainer\DetailDoctor.Designer.cs">
+      <DependentUpon>DetailDoctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserContainer\DetailSpecialty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserContainer\DetailSpecialty.Designer.cs">
+      <DependentUpon>DetailSpecialty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserContainer\ListInformationContainer\ListClinics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserContainer\ListInformationContainer\ListClinics.Designer.cs">
+      <DependentUpon>ListClinics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserContainer\ListInformationContainer\ListDoctors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserContainer\ListInformationContainer\ListDoctors.Designer.cs">
+      <DependentUpon>ListDoctors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserContainer\ListInformationContainer\ListSpecialties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserContainer\ListInformationContainer\ListSpecialties.Designer.cs">
+      <DependentUpon>ListSpecialties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User.Designer.cs">
+      <DependentUpon>User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Validator.cs" />
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminContainer\ManageBooking.resx">
+      <DependentUpon>ManageBooking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminContainer\ManageClinic.resx">
+      <DependentUpon>ManageClinic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminContainer\ManageDoctor.resx">
+      <DependentUpon>ManageDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminContainer\ManageSpecialty.resx">
+      <DependentUpon>ManageSpecialty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminContainer\ManageUser.resx">
+      <DependentUpon>ManageUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctor.resx">
+      <DependentUpon>Doctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoctorContainer\ManageSchedule.resx">
+      <DependentUpon>ManageSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserContainer\BookingSchedule.resx">
+      <DependentUpon>BookingSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserContainer\DetailClinic.resx">
+      <DependentUpon>DetailClinic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserContainer\DetailDoctor.resx">
+      <DependentUpon>DetailDoctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserContainer\DetailSpecialty.resx">
+      <DependentUpon>DetailSpecialty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserContainer\ListInformationContainer\ListClinics.resx">
+      <DependentUpon>ListClinics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserContainer\ListInformationContainer\ListDoctors.resx">
+      <DependentUpon>ListDoctors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserContainer\ListInformationContainer\ListSpecialties.resx">
+      <DependentUpon>ListSpecialties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User.resx">
+      <DependentUpon>User.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addPicture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-login-origincare.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-origincare.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cooperate-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\appointment-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor-image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clinic-image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sepecialty-image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\post-image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-service-block.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\specialist-examination-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remote-examination.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\general-examination.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medical-tests.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comprehensive-health.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dental-examination.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\surgical-combo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\live-healthy-with-diabetes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\health-tests.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medical-services-near-your-home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\co-xuong-khop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\than-kinh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tieu-hoa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\viet-duc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cho-ray.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor-check.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\benh-vien-trung-uong-quan-doi-108.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-outstanding-doctor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remote-psychological-consultation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remote-dermatology-consultation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remote-musculoskeletal-consultation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ask-doctor-service.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\handbook-service.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ask-doctor-service.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\partner-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\partner-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\partner-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo-login-origincare.ico" />
+    <Content Include="logo-origincare-desktop.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

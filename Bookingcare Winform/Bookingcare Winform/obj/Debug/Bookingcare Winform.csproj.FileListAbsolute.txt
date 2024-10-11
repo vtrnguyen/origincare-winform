@@ -1,0 +1,26 @@
+D:\UFM\Lập trình C# nâng cao\Bookingcare Winform\Bookingcare Winform\bin\Debug\Bookingcare Winform.exe.config
+D:\UFM\Lập trình C# nâng cao\Bookingcare Winform\Bookingcare Winform\bin\Debug\Bookingcare Winform.exe
+D:\UFM\Lập trình C# nâng cao\Bookingcare Winform\Bookingcare Winform\bin\Debug\Bookingcare Winform.pdb
+D:\UFM\Lập trình C# nâng cao\Bookingcare Winform\Bookingcare Winform\obj\Debug\Bookingcare Winform.csproj.AssemblyReference.cache
+D:\UFM\Lập trình C# nâng cao\Bookingcare Winform\Bookingcare Winform\obj\Debug\Bookingcare_Winform.Login.resources
+D:\UFM\Lập trình C# nâng cao\Bookingcare Winform\Bookingcare Winform\obj\Debug\Bookingcare_Winform.Properties.Resources.resources
+D:\UFM\Lập trình C# nâng cao\Bookingcare Winform\Bookingcare Winform\obj\Debug\Bookingcare Winform.csproj.GenerateResource.cache
+D:\UFM\Lập trình C# nâng cao\Bookingcare Winform\Bookingcare Winform\obj\Debug\Bookingcare Winform.csproj.CoreCompileInputs.cache
+D:\UFM\Lập trình C# nâng cao\Bookingcare Winform\Bookingcare Winform\obj\Debug\Bookingcare Winform.exe
+D:\UFM\Lập trình C# nâng cao\Bookingcare Winform\Bookingcare Winform\obj\Debug\Bookingcare Winform.pdb
+D:\UFM\Lập trình C# nâng cao\Bookingcare Winform\Bookingcare Winform\obj\Debug\Bookingcare_Winform.Admin.resources
+D:\UFM\Lập trình C# nâng cao\Bookingcare Winform\Bookingcare Winform\obj\Debug\Bookingcare_Winform.Doctor.resources
+D:\UFM\Lập trình C# nâng cao\Bookingcare Winform\Bookingcare Winform\obj\Debug\Bookingcare_Winform.User.resources
+D:\UFM\Lập trình C# nâng cao\Bookingcare Winform\Bookingcare Winform\obj\Debug\Bookingcare_Winform.AdminContainer.ManageUser.resources
+D:\UFM\Lập trình C# nâng cao\Bookingcare Winform\Bookingcare Winform\obj\Debug\Bookingcare_Winform.AdminContainer.ManageClinic.resources
+D:\UFM\Lập trình C# nâng cao\Bookingcare Winform\Bookingcare Winform\obj\Debug\Bookingcare_Winform.AdminContainer.ManageSpecialty.resources
+D:\UFM\Lập trình C# nâng cao\Bookingcare Winform\Bookingcare Winform\obj\Debug\Bookingcare_Winform.AdminContainer.ManageBooking.resources
+D:\UFM\Lập trình C# nâng cao\Bookingcare Winform\Bookingcare Winform\obj\Debug\Bookingcare_Winform.AdminContainer.ManageDoctor.resources
+D:\UFM\Lập trình C# nâng cao\Bookingcare Winform\Bookingcare Winform\obj\Debug\Bookingcare_Winform.DoctorContainer.ManageSchedule.resources
+D:\UFM\Lập trình C# nâng cao\Bookingcare Winform\Bookingcare Winform\obj\Debug\Bookingcare_Winform.ListInformationContainer.ListClinics.resources
+D:\UFM\Lập trình C# nâng cao\Bookingcare Winform\Bookingcare Winform\obj\Debug\Bookingcare_Winform.ListInformationContainer.ListDoctors.resources
+D:\UFM\Lập trình C# nâng cao\Bookingcare Winform\Bookingcare Winform\obj\Debug\Bookingcare_Winform.ListInformationContainer.ListSpecialties.resources
+D:\UFM\Lập trình C# nâng cao\Bookingcare Winform\Bookingcare Winform\obj\Debug\Bookingcare_Winform.UserContainer.DetailDoctor.resources
+D:\UFM\Lập trình C# nâng cao\Bookingcare Winform\Bookingcare Winform\obj\Debug\Bookingcare_Winform.UserContainer.BookingSchedule.resources
+D:\UFM\Lập trình C# nâng cao\Bookingcare Winform\Bookingcare Winform\obj\Debug\Bookingcare_Winform.UserContainer.DetailSpecialty.resources
+D:\UFM\Lập trình C# nâng cao\Bookingcare Winform\Bookingcare Winform\obj\Debug\Bookingcare_Winform.UserContainer.DetailClinic.resources
